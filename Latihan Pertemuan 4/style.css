@@ -1,0 +1,102 @@
+/* 1. input:focus */
+input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+}
+
+/* 2. .mb-4 */
+.mb-4 {
+    margin-bottom: 16px;
+}
+
+/* 3. button */
+button {
+    width: 100%;
+    padding: 10px 16px;
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* 4. button:hover */
+button:hover {
+    background: #1e40af;
+}
+
+/* 5. h1 */
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1f2937; /* grey-800 */
+    margin-bottom: 16px;
+}
+
+/* 6. label */
+label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #4b5563; /* grey-600 */
+    margin-bottom: 6px;
+}
+
+/* 7. input */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db; /* grey-300 */
+    font-size: 0.95rem;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.2s;
+}
+
+/* 8. hr */
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+}
+
+/* 9. p */
+p {
+    color: #1f2937;
+    margin-bottom: 6px;
+}
+
+/* 10. span */
+span {
+    font-weight: 600;
+    color: #111827;
+}
+
+/* 11. * (Reset Dasar) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+}
+
+/* 12. body */
+body {
+    background-color: #f3f4f6; /* grey-100 */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 13. .card */
+.card {
+    background: #FFFFFF;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 380px;
+}

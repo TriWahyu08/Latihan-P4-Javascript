@@ -1,0 +1,69 @@
+/* Styling Dasar (Body dan Reset) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('foto_bg.jpeg');
+    background-size: cover;       /* Memastikan gambar menutupi seluruh viewport */
+    background-repeat: no-repeat; /* Mencegah gambar berulang */
+    background-attachment: fixed; /* Memastikan gambar tetap saat halaman digulir */
+    color: white; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling Card */
+.card {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    /* Shadow dibuat lebih gelap agar terlihat kontras dengan background gelap */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    width: 100%;
+    max-width: 400px; /* Ukuran yang disesuaikan */
+    text-align: center;
+    color: #333; /* Mengubah warna teks di dalam card kembali menjadi gelap */
+}
+
+.card-header-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #5F5F5F;
+    margin-bottom: 25px;
+}
+
+/* Styling Input dan Button */
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D1D1D1;
+    border-radius: 6px;
+    transition: 0.2s;
+    outline: none;
+}
+
+button {
+    width: 100%; /* Tombol lebar penuh */
+    padding: 10px 20px;
+    background: #3651ec; /* Warna biru */
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #4A5BAC;
+}
